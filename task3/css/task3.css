@@ -1,0 +1,40 @@
+
+p,div,body{
+	margin:0;
+	padding:0;
+}
+body{
+	padding:20px;
+	font-size:14px;
+	font-family:sans-serif;
+}
+.container1{
+    float: left;
+    border: 1px solid #999;
+    background-color: #eee;
+    width: 158px;
+	padding:20px;
+}
+.container3{
+	float: right;
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 20px;
+    width: 80px;
+}
+.container2{
+	background-color: #fff;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-left: 220px;
+    margin-right: 140px;
+}
+.logo{
+	border: 1px solid #999;
+    float: left;
+}
+.member{
+	margin-bottom: 20px;
+    border: 1px solid #999;
+    float: left;
+}
