@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+html,body.div,p,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,select,button,textarea,iframe,table,th,td,{
+    margin:0;
+    padding:0;
+}/*CSS重置*/
+body{/*整个页面设定*/
+    background-color: #dedede;/*背景*/
+     font-family:,sans-serif, "Microsoft YaHei",Geneva;/*可用字体*/
+     min-width: 800px;    /*最大宽度*/
+     font-size: 14px;      /*整体字号*/
+     border:1px solid #fff;   /*边缘*/  
+     margin:0 auto;
+}
+h2{/*h2共同属性*/
+    font-size: 20px;
+    padding:5px 10px;
+}
+h3{
+    font-size: 16px;
+    padding:2px 10px;
+    color:grey;
+}
+span{
+    font-size: 12px;
+    padding:2px 10px;
+    color:grey;
+}
+#header{/*设置头部header*/
+    background-color: black;
+    color:white;
+    text-align: center;
+    position: relative;
+    height: 70px;
+}
+article,aside{/*整个body页面的article适用*/
+    background-color: #eee;
+}
+article,aside,footer{
+    margin:10px;
+    padding:10px;
+    display: block;
+}
+/*############################################通用部分结束#########################################*/
+#header img{
+    display: inline-block;
+    position:absolute; left: 0;top: 0;
+}
+#header nav{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+#header nav ul{
+    position:absolute;right: 0;top:0;
+    height: 70px;
+}
+#header nav ul li{
+    padding:0;
+    margin-right:10px;
+    display: inline-block;
+    line-height: 3em;
+}
+#header a{
+    text-decoration: none;
+    font-size:1.5em;
+    color:white;
+}
+#header a:hover{
+    color:yellow;
+}
+/*##########################################Header部分结束########################################*/
+aside{
+    display: block;
+    width: 25%;
+    float: right;
+    background-color: red;
+}
+
+
+
+
+
+/*######################################################侧栏部分#############################*/
+#posts {
+    display: block;
+    float: left;
+    width:70%;
+    height: auto;
+    background-color: #f69;
+}
+/**/
+article p{/*文章段落*/
+    text-indent: 2em;
+    line-height: 1.25em;
+}
+article p a{/*段内超链接*/
+    color:blue;
+}
+article ul{/*文章内无编号列表*/
+    list-style:none; 
+}
+article table{/*文章内表哥*/
+
+}
+
+/*###########################主题部分################################*/
+footer{
+    display: block;
+    clear: both;
+    width: 100%;
+    margin-top: 15px;
+    color:#fff;
+    text-align: center;
+    background-color: black;
+}
+/*#############################footer部分#######################################*/
