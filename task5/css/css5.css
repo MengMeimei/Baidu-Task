@@ -23,12 +23,12 @@ h2{/*h2共同属性*/
 h3{
     font-size: 16px;
     padding:2px 10px;
-    color:grey;
+    color:gray;
 }
 span{
     font-size: 12px;
     padding:2px 10px;
-    color:grey;
+    color:gray;
 }
 #header{/*设置头部header*/
     background-color: #333;
@@ -48,7 +48,7 @@ article,aside,footer{
 /*############################################通用部分结束#########################################*/
 #header img{
     display: inline-block;
-    position:absolute; left: 0;top: 0;
+    position:absolute; left: 20px;top: 0;
 }
 #header nav{
     list-style: none;
@@ -56,7 +56,7 @@ article,aside,footer{
     padding:0;
 }
 #header nav ul{
-    position:absolute;right: 0;top:0;
+    position:absolute;right:10px;top:0;
     height: 70px;
 }
 #header nav ul li{
@@ -78,7 +78,7 @@ article,aside,footer{
 /*##########################################Header部分结束########################################*/
 aside{
     float: right;
-    width: 23%;
+    width: 350px;
     margin-right: 1em;
     background-color: #fff;
     box-shadow: 3px 3px #acafb9;
@@ -93,22 +93,22 @@ aside form div{
 }
 aside form div label{
     display: inline-block;
-    width: 35%;
+    width: 130px;
     text-align: right;
     padding-right: 1em;
     vertical-align: top;
 }
 aside form .tips{
-    margin-left: 40%;
+    margin-left: 145px;
     color:#aaa;
 }
 aside form textarea{
     height: 100px;
-    width: 50%;
+    width: 180px;
     font-size: 18px;
 }
 aside form #submit{
-    width: 100%;
+    width: 350px;
     background-color: #3355d0;
     height: 35px;
     border-radius: 10px;
@@ -119,9 +119,9 @@ aside form #submit{
 /*######################################################侧栏部分#############################*/
 #posts {
     display: block;
-    float: left;
-    width:70%;
-    margin-right: 20px;
+    /*float: left;*/
+    width:auto;
+    margin-right: 390px;
     height: auto;
     background-color: #dedede;
 }
@@ -193,9 +193,9 @@ article figure img{
 /*#########################正文主体部分################################*/
 footer{
     display: block;
-    clear: both;
-    width: 100%;
-    margin-top: 15px;
+    /*clear: both;*/
+    /*width: 100%;*/
+    margin: 0 auto;
     color:#fff;
     text-align: center;
     background-color: #000;
